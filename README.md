@@ -45,6 +45,39 @@ projet_fifa/
 ```
 
 ---
+## Lancer l'API avec Docker
+
+### Prérequis
+
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/) installé et lancé
+
+### 1. Cloner le projet
+
+```bash
+git clone https://github.com/emiliehhd/Project_DataScience.git
+cd Project_DataScience
+```
+
+### 2. Construire l'image Docker
+
+```bash
+docker build -t fifa-api .
+```
+
+### 3. Lancer le conteneur
+
+```bash
+docker run -p 8000:8000 fifa-api
+```
+
+### 4. Accéder à l'API
+
+L'API est maintenant accessible sur :
+
+- **Base** → http://127.0.0.1:8000
+- **Swagger (interface de test)** → http://127.0.0.1:8000/docs
+
+---
 
 ## Dataset
 
