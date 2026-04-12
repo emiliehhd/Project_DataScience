@@ -1,5 +1,6 @@
 # Project Data Science
 
+Problématique : 
 Segmenter les joueurs de foot par profil et prédire leur valeur marchande pour optimiser le recrutement d'un club.
 
 ---
