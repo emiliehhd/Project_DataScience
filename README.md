@@ -26,7 +26,7 @@ Ce projet de Data Science complet appliqué au dataset **FIFA 22** (19 239 joueu
 projet_fifa/
 │
 ├── project.ipynb                  # Notebook principal (EDA + modèles)
-├── main.py                        # API FastAPI
+├── api.py                        # API FastAPI
 ├── requirements.txt               # Dépendances Python
 ├── players_22.csv                 # Dataset source (Kaggle)
 │
